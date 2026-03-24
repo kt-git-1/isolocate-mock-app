@@ -7,4 +7,8 @@ export const POP_LABELS: Record<PopGroup, string> = {
   SEA: "東南アジア",
   UBC: "UBC(バンクーバー)",
   US: "アメリカ",
+  PNG: "パプアニューギニア",
+  PHL: "フィリピン",
+  IDN: "インドネシア",
+  CPO: "中央太平洋・オセアニア",
 };

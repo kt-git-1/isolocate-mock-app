@@ -15,7 +15,7 @@ export function TopNav() {
   return (
     <header className="h-12 bg-sky-700 text-white">
       <div className="mx-auto max-w-6xl h-full px-4 flex items-center gap-5 text-sm">
-        <div className="font-semibold tracking-wide">IsoLocate(モック)</div>
+        <div className="font-semibold tracking-wide">所属集団判別ツール</div>
         <nav className="flex items-center gap-4 opacity-95">
           {items.map(({ label, href }) => (
             <Link key={label} href={href} className="cursor-pointer whitespace-nowrap hover:underline">

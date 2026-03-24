@@ -8,16 +8,16 @@ export default function Page() {
       <main className="mx-auto max-w-6xl p-6 space-y-8">
         {/* サブタブのプレースホルダ */}
         <nav className="flex gap-4 bg-gray-100 p-2 rounded-md text-sm">
-          <span className="bg-sky-200 text-sky-800 px-2 py-1 rounded">IsoLocateの使い方</span>
+          <span className="bg-sky-200 text-sky-800 px-2 py-1 rounded">所属集団判別ツールの使い方</span>
           <span className="px-2 py-1">集団説明</span>
           <span className="px-2 py-1">準備プロトコル</span>
           <span className="px-2 py-1">参考文献</span>
         </nav>
 
         {/* タイトルと概要 */}
-        <h1 className="text-2xl font-bold">IsoLocateへようこそ</h1>
+        <h1 className="text-2xl font-bold">所属集団判別ツールへようこそ</h1>
         <p>
-          IsoLocateでは、線形判別関数解析（LDFAまたはLDA）、混合判別分析（MDA）、またはランダムフォレスト・モデリング（RFM）を用いて、
+          所属集団判別ツールでは、線形判別関数解析（LDFAまたはLDA）、混合判別分析（MDA）、またはランダムフォレスト・モデリング（RFM）を用いて、
           コラーゲン、アパタイト、または歯のエナメルから採取された未知の安定同位体試料を複数の参照領域の1つに分類します。
           グラフィカルユーザーインターフェース（GUI）の基盤はRで開発されているため、出力や書式設定はこのプログラムの機能に依存します。
           このGUIはホストされているので、ローカルコンピュータにRを用意する必要はありません。
@@ -33,7 +33,7 @@ export default function Page() {
         <section>
           <h2 className="text-xl font-semibold mt-4">解析</h2>
           <p>
-            IsoLocateでは、LDA、MDA、またはRFMを使用して骨や歯の組織から得られた個々の安定同位体値を原産地の領域に分類します。
+            所属集団判別ツールでは、LDA、MDA、またはRFMを使用して骨や歯の組織から得られた個々の安定同位体値を原産地の領域に分類します。
             また、確率密度関数（PDF）および尤度比（LR）を用いて、2つのグループ間の分類の強さを評価します。
             現在利用可能なステップワイズ手法は、klaRパッケージ（Weihs ら、2016）の関数「greedy.wilks」を使用した前方Wilks法のみです。
             前方Wilks法では、グループを最もよく区別する変数から始め、Wilksのラムダ基準に基づいて変数を順次追加します。

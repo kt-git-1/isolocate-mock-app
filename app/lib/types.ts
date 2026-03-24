@@ -1,4 +1,4 @@
-export type PopGroup = "Asian" | "Japan" | "NEA" | "SEA" | "UBC" | "US";
+export type PopGroup = "Asian" | "Japan" | "NEA" | "SEA" | "UBC" | "US" | "PNG" | "PHL" | "IDN" | "CPO";
 
 export type Classifier = "lda" | "logit" | "rf";
 export type GroupCount = "two" | "more2";

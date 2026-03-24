@@ -3,7 +3,7 @@
 import { EvaluateRequest, PopGroup } from "../lib/types";
 import { POP_LABELS } from "../lib/labels";
 
-const POPS: PopGroup[] = ["Asian", "Japan", "NEA", "SEA", "UBC", "US"];
+const POPS: PopGroup[] = ["Asian", "Japan", "NEA", "SEA", "UBC", "US", "PNG", "PHL", "IDN", "CPO"];
 
 function Label({ children }: { children: React.ReactNode }) {
   return <div className="text-xs text-slate-600 mb-1">{children}</div>;
