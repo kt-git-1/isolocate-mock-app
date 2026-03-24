@@ -21,8 +21,8 @@ const initial: EvaluateRequest = {
 
   isotopes: {
     collagen: { col13c: "", col15n: "", col34s: "" },
-    apatite: { a13c: "", a18o: "" },
-    enamel: { e13c: "", e18o: "" },
+    apatite: { a13c: "", a18o: "", a87sr: "" },
+    enamel: { e13c: "", e18o: "", e87sr: "" },
   },
 };
 

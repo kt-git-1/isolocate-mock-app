@@ -58,6 +58,7 @@ export function IsotopeInputs({
         cols={[
           { key: "a13c", label: "A13C" },
           { key: "a18o", label: "A18O" },
+          { key: "a87sr", label: "A87Sr" },
         ]}
         values={value.isotopes.apatite}
         onChange={(next) => onChange({ ...value, isotopes: { ...value.isotopes, apatite: next as any } })}
@@ -68,6 +69,7 @@ export function IsotopeInputs({
         cols={[
           { key: "e13c", label: "E13C" },
           { key: "e18o", label: "E18O" },
+          { key: "e87sr", label: "E87Sr" },
         ]}
         values={value.isotopes.enamel}
         onChange={(next) => onChange({ ...value, isotopes: { ...value.isotopes, enamel: next as any } })}

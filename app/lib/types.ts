@@ -6,8 +6,8 @@ export type Stepwise = "none" | "forward" | "backward";
 
 export type IsotopeInputs = {
   collagen: { col13c: string; col15n: string; col34s: string };
-  apatite: { a13c: string; a18o: string };
-  enamel: { e13c: string; e18o: string };
+  apatite: { a13c: string; a18o: string; a87sr: string };
+  enamel: { e13c: string; e18o: string; e87sr: string };
 };
 
 export type EvaluateRequest = {
